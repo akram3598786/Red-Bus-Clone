@@ -1,0 +1,123 @@
+
+
+
+@media screen and (min-width:830px) and ( max-width:1180px) {  
+    #details_sorting_heading,#header_images,#tr1{
+        display: none;
+    }
+    .extra_features_row ul,.extra_features_row p{
+        display: none;
+    }
+    tr td:nth-child(1) {
+        width: 100px;
+    }
+    .extra_features_row{
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    /*==== POP Screen === */
+    .bg-modal{
+        width: 100%;
+    }
+    #pop-up_box{
+        width: 80%;
+        /* height: 100%; */
+        scroll-behavior: auto;
+    }
+    #upper_deck_box,#lower_deck_box{
+        grid-template-columns: repeat(10,1fr);
+    }
+    .seat{
+        text-align: center;
+    }
+  
+}
+
+@media screen and (min-width:200px) and ( max-width:830px) {
+    nav{
+        display: none;
+    }
+    #headerDet{
+         display: flex;
+        padding: 0px 5px;
+        font-size: 15px;
+        width: 100vw;
+    }
+    #headerDet p{
+        font-size: 15px;
+    }
+    #headerDet button{
+        height: 20px;
+        background-color: brown;
+        color: white;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .hide {
+        display: none;
+    }
+
+    .left_section{
+        display: none;
+    }
+    .right_section{
+        width: 100vw;
+    }
+ 
+    #details_sorting_heading,#header_images,#tr1,#pickup_point,#icon, #duration,#dept_point{
+        display: none;
+    }
+    .extra_features_row ul,.extra_features_row p{
+        display: none;
+    }
+    .extra_features_row{
+        display: flex;
+        justify-content: flex-end;
+      }
+
+    tr td:nth-child(1) {
+        width: 100px;
+    }
+     tr{
+        display: flex;
+        flex-direction: column;
+     }
+    .bus_card{
+        font-size: xx-small;
+    }
+    .price_nd_seat_div{
+       margin-left: -20px;
+    }
+    .extra_features_row {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  
+
+    /*==== POP Screen === */
+    .bg-modal{
+        width: 100%;
+        
+    }
+    #pop-up_box{
+        width: 80%;
+        /* height: 100%; */
+        scroll-behavior: auto;
+    }
+    #pop_line{
+        display: none;
+    }
+    .seat{
+        padding: 0px;
+        text-align: center;
+    }
+    #seats_contents{
+        display: flex;
+        flex-direction: column;
+    }
+    #upper_deck_box,#lower_deck_box{
+        grid-template-columns: repeat(8,1fr);
+    }
+  
+    
+}
