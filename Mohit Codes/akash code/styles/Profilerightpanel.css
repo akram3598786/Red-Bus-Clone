@@ -1,0 +1,236 @@
+/* body{
+    background-color: #2d3031;
+} */
+.boxContainer{
+    /* height: 892px; */
+    /* width: 1591px; */
+    display: flex;
+}
+.leftPanel{
+    font-size: 13.33px;
+    color: #b9b3aa;
+    height: 354.328px;
+    width: 241.328px;
+    float: left;
+    display: block;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.leftPanel > a{
+    display: flex;
+    color: #b9b3aa;
+    list-style-type: none;
+    list-style-position: outside;
+    border-bottom: 1px solid #43484b;
+    cursor: pointer;
+    text-decoration: none;
+}
+.leftPanel > a > img{
+    height: 30px;
+    width: 30px;
+    float: left;
+    display: block;
+    padding: 15px 0 0 10px;
+}
+.leftPanel > a > div{
+    height: 65px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 15px;
+}
+
+
+.right-side{
+    height: 520px;
+    width: 1272px;
+    border-left: 2px solid #393D40;
+    float: left;
+    min-height: 520px;
+    /* border: 1px solid; */
+    display: block;
+}
+.right-side-two{
+    display: none;
+}
+.right-side-three{
+    /* display: none; */
+}
+.greyText{
+    height: 23px;
+    width: 94px;
+    display: flex;
+    padding: 20px;
+    margin-left: 100px;
+    justify-content: flex-start;
+    /* border: 1px solid #000; */
+}
+.profiledetails{
+    height: 360px;
+    margin: 0px 80px;
+    /* margin: 7px 0 15px 120px; */
+    /* display: block; */
+    box-sizing: border-box;
+    box-shadow: rgb(62, 67, 69) 0px 0px 10px 0px;
+    border-top-left-radius: 6.66px;
+    border-top-right-radius: 6.66px;
+    border-bottom-left-radius: 6.66px;
+    border-bottom-right-radius: 6.66px;
+    /* background-color: gray; */
+    font-size: 13.33px;
+    font-family: Montserrat;
+    z-index: -1;
+    /* background-color: yellow; */
+}
+
+.editbutton{
+    height: 28px;
+    width: 990px;
+    margin: 0 28px 35px 0;
+    padding: 20px 0 0 0;
+    display: block;
+    /* border: 1px solid; */
+}
+.editbutton > button{
+   
+    background-color: #53b053;
+    height: 28px;
+    width: 71px;
+    float: right;
+    border: none;
+    cursor: pointer;
+    margin: 0 27px 0 0 ;
+    border-radius: 2px;
+    color: white;
+}
+button:hover{
+    background-color: #298529;
+}
+.userdetail1{
+    min-height: 80px;
+    /* border: 1px solid #000; */
+ }
+.inputName{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid #000; */
+}
+.inputName > div {
+    /* border: 1px solid; */
+    width: 894px;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+.inputName > div > input{
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+    width: 200px;
+}
+.userdetail2{
+    /* border: 1px solid; */
+    /* height: 10px; */
+    margin: -20px 80px 20px 80px;
+}
+fieldset{
+    height: 50px;
+    width: 809px;
+    border: none;
+    border-top: 1px solid #3a3e41;
+    margin:  0 80px 0 80px;
+    padding: 2px 0 2px 0;
+    min-width: min-content;
+    text-align: center;
+}
+legend{
+    font-size: 20px;
+    height: 20px;
+    display: table;
+    height: 47px;
+    width: 218px;
+    padding: 20px 20px 0px 20px;
+    max-width: 70%;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.userdetail3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px ;
+    width: 800px;
+    margin: 0 80px 0 80px;
+    /* border: 1px solid; */
+}
+.userdetail3 > input{
+    border: none;
+    width: 180px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+
+
+
+
+ul{
+    list-style-type:none;
+ }
+ .main-div8{
+    width: 100%;
+    background-color: #1B2330;
+    position: absolute;
+    top: 550px;
+ }
+ .main-div8 > .div8-inner{
+     width: 80%;
+     margin: auto;
+     display: flex;
+     color: #d0c7c7;
+ } 
+ 
+ .ul-li-head{
+     color: #797979;
+     font-size: 17px;
+     font-weight: 700;
+ }
+ .main-div8 .div8-inner div{
+     width: 335px;
+     line-height: 30px;
+     letter-spacing: 0.5px;
+     margin-top: 30px;
+ }
+ .main-div8 .div8-inner .red-bus{
+     width: 450px;
+ }
+ .main-div8 .div8-inner .red-bus .img{
+     display: flex;
+  width: 50px;
+  height: 50px;
+  margin-bottom: -12px;
+  margin-top: -10px;
+  cursor: pointer;
+ }
+ 
+ @media only screen and (max-width: 500px){
+     .main-div8{
+         width: 100%;
+         height: auto;
+         background-color: #1B2330;
+         margin-top: -15px;
+     
+     }
+     .main-div8 .div8-inner{
+      
+         margin: auto;
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+         color: #d0c7c7;
+     }
+ }

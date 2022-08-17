@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="./styles/SignupLogin.css">
+    <link rel="stylesheet" href="./styles/leftpanel.css">
+    <style>
+        #rightPanel_section {
+            display: flex;
+            /* justify-content: center; */
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+     input{
+    border: 1ps solid black;
+    border-radius: 5px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="boxContainer">
+        <div class="leftPanel">
+            <a href="./PageMyProfile.html">
+                <img src="https://cdn-icons-png.flaticon.com/128/1246/1246351.png?ga=GA1.2.1823336501.1659074507"
+                    alt="">
+                <div>
+                    <h3 id="UserNameleftPanel"></h3>
+                </div>
+
+            </a>
+            <a href="./PageMytrip.html" id="mytrip.html">
+                <img src="https://cdn-icons-png.flaticon.com/128/1241/1241874.png?ga=GA1.2.1823336501.1659074507"
+                    alt="">
+                <div>
+                    <h3>My Trips</h3>
+                </div>
+            </a>
+            <a href="./PageWalletAndCard.html" id="wallet">
+                <img src="https://cdn-icons-png.flaticon.com/128/1235/1235458.png?ga=GA1.2.1823336501.1659074507"
+                    alt="">
+                <div>
+                    <h3>Wallet/ Cards</h3>
+                </div>
+            </a>
+            <a href="./PageMyProfile.html">
+                <img src="https://cdn-icons-png.flaticon.com/128/1246/1246348.png?ga=GA1.2.1823336501.1659074507"
+                    alt="">
+                <div>
+                    <h3>My Profile</h3>
+                </div>
+            </a>
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/1235/1235458.png?ga=GA1.2.1823336501.1659074507"
+                    alt="">
+                <div>
+                    <h3>Wallet</h3>
+                </div>
+            </a>
+        </div>
+
+        <div id="rightPanel_section">
+
+            <div class="right-panel">
+
+                <span class="greyText">MY Profile</span>
+
+                <div class="profiledetails">
+                    <div class="editbutton" id="editbutton">
+                        <button id="edittap">EDIT</button>
+                    </div>
+                    <div class="userdetail1">
+                        <div class="inputName">
+                            <div>
+                                <label for="YOUR NAME">YOUR NAME</label><br>
+                                <div id="nameUserPrint"></div>
+                            </div>
+                            <div>
+                                <label for="DATE OF BIRTH">DATE OF BIRTH</label><br>
+                                <div id="datePrint"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userdetail2">
+                        <p>GENDER</p>
+                        <div id="genderPrint"></div>
+                    </div>
+                    <fieldset>
+                        <legend>CONTACT DETAILS</legend>
+                    </fieldset>
+                    <div class="userdetail3">
+                        <div>
+                            <label for="">EMAIL</label>
+                            <div id="emailPrint"></div>
+                        </div>
+                        <div>
+                            <label for="">NUMBER</label>
+                            <div id="numberPrint"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="right-paneltwo">
+                <span class="greyText">MY Profile</span>
+
+                <div class="profiledetails">
+
+                    <div class="editbutton">
+                        <button id="cancelbutton">CANCEL</button>
+                        <button id="savebutton">SAVE</button>
+                    </div>
+                    <div class="userdetail1">
+                        <div class="inputName">
+                            <div>
+                                <label for="YOUR NAME">YOUR NAME</label><br>
+                                <input type="text" placeholder="" id="userName" />
+                            </div>
+                            <div>
+                                <label for="DATE OF BIRTH">DATE OF BIRTH</label><br>
+                                <input type="date" name="Date" id="date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userdetail2">
+                        <label for="">GENDER</label><br>
+                        <select name="gender" id="gender">
+                            <option value="">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <fieldset>
+                        <legend>CONTACT DETAILS</legend>
+                    </fieldset>
+                    <div class="userdetail3">
+                        <div>
+                            <label for="">EMAIL</label>
+                            <input type="text" id="email" />
+                        </div>
+                        <div>
+                            <label for="">NUMBER</label>
+                            <div id="numberPrint2"></div>
+                            <!-- <input type= "text " id="number"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="right-panel3">
+            
+            <span class="greyText">MY Profile</span>
+
+            <div class="profiledetails">
+                <div class="editbutton" id="editbutton">
+                    <button id="edittap">EDIT</button>
+                </div>
+                <div class="userdetail1">
+                    <div class="inputName">
+                        <div>
+                            <label for="YOUR NAME">YOUR NAME</label><br>
+                            <div id="nameUserPrint"></div>
+                        </div>
+                        <div>
+                            <label for="DATE OF BIRTH">DATE OF BIRTH</label><br>
+                            <div id="datePrint"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="userdetail2">
+                    <p>GENDER</p>
+                    <div id="genderPrint"></div>
+                </div>
+                <fieldset> <legend>CONTACT DETAILS</legend> </fieldset>
+                <div class="userdetail3">
+                    <div>
+                        <label for="">EMAIL</label>
+                        <div id="emailPrint"></div>
+                    </div>
+                    <div>
+                        <label for="">NUMBER</label>
+                        <div id="numberPrint"></div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        </div>
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>
+<script src="./Pages.js" type="module"></script>
+<script>
+
+    document.querySelector(".right-paneltwo").style.display = "none";
+
+    let PhoneNumber = JSON.parse(localStorage.getItem("number"));
+    document.getElementById("numberPrint2").append(PhoneNumber);
+
+    document.getElementById("cancelbutton").addEventListener("click", function () {
+        document.querySelector(".right-paneltwo").style.display = "none";
+        document.querySelector(".right-panel").style.display = "block";
+    });
+
+    document.getElementById("edittap").addEventListener("click", function () {
+        document.querySelector(".right-panel").style.display = "none";
+        document.querySelector(".right-paneltwo").style.display = "block";
+
+        event.preventDefault();
+        console.log("edit clicked");
+
+        let UserName = document.getElementById("userName");
+        let DateofBirth = document.getElementById("date")
+        let Gender = document.getElementById("gender")
+        let Email = document.getElementById("email")
+
+        document.getElementById("savebutton").addEventListener("click", () => {
+            let userObj = {
+                UserName: UserName.value,
+                DateofBirth: DateofBirth.value,
+                Gender: Gender.value,
+                Email: Email.value,
+            }
+            localStorage.setItem("userProfile",JSON.stringify(userObj));
+           
+        display();
+        });
+    })
+
+
+    display();
+
+    function display() {
+
+            document.querySelector(".right-panel").style.display = "block";
+           document.querySelector(".right-paneltwo").style.display = "none";
+         
+        let userDetail = JSON.parse(localStorage.getItem("userProfile")) || [];
+        let FixedNumber = JSON.parse(localStorage.getItem("number")) || "";
+
+        var div1 = document.createElement("div");
+        div1.setAttribute("class", "containerUser")
+
+        var div2 = document.createElement("div");
+        div2.setAttribute("class", "containerUser")
+
+        var div3 = document.createElement("div");
+        div3.setAttribute("class", "containerUser")
+
+        var div4 = document.createElement("div");
+        div4.setAttribute("class", "containerUser")
+
+        var div5 = document.createElement("div");
+        div5.setAttribute("class", "containerUser")
+
+        var div6 = document.createElement("div");
+        div6.setAttribute("class", "containerUser")
+
+        var name = document.createElement("p");
+        name.innerText="";
+        if (userDetail.UserName == undefined) name.innerText = "User Name";
+        else name.innerText = userDetail.UserName;
+
+        var Name = document.createElement("p");
+        Name.innerText="";
+        Name.innerText = userDetail.UserName;
+
+        let dateofbirth = document.createElement("p")
+        dateofbirth.innerText="";
+        dateofbirth.textContent = userDetail.DateofBirth;
+
+        let gender = document.createElement("p")
+        gender.innerText="";
+        gender.textContent = userDetail.Gender;
+
+        var email = document.createElement("p");
+        email.innerText="";
+        email.innerText = userDetail.Email;
+
+        var number = document.createElement("p");
+        number.innerText="";
+        number.innerText = FixedNumber;
+
+
+        div1.append(Name)
+        div2.append(dateofbirth)
+        div3.append(gender)
+        div4.append(email)
+        div5.append(number)
+        div6.append(name)
+        // div7.append(number)
+        document.getElementById("nameUserPrint").innerHTML="";
+        document.getElementById("datePrint").innerHTML="";
+        document.getElementById("genderPrint").innerHTML="";
+        document.getElementById("emailPrint").innerHTML="";
+        document.getElementById("numberPrint").innerHTML="";
+        document.getElementById("UserNameleftPanel").innerHTML="";
+
+
+        document.getElementById("nameUserPrint").append(div1);
+        document.getElementById("datePrint").append(div2);
+        document.getElementById("genderPrint").append(div3);
+        document.getElementById("emailPrint").append(div4);
+        document.getElementById("numberPrint").append(div5);
+        document.getElementById("UserNameleftPanel").append(div6);
+
+    }
+
+
+
+
+</script>

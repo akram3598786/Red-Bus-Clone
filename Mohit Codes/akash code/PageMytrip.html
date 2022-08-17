@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTrips</title>
+    <link rel="stylesheet" href="./styles/SignupLogin.css" />
+    <link rel="stylesheet" href="./styles/leftpanel.css" />
+    <link rel="stylesheet" href="./styles/MangingSection.css">
+    <style>
+      #ticketCard {
+        padding: 9px 20px;
+        border: 1px solid black;
+        border-radius: 12px;
+        background-color: azure;
+        font-size: x-small;
+      }
+      #ticketCard > * {
+        margin-top: -5px;
+      }
+
+      #cancel-button {
+        /* display: block;
+            margin-top: 200px; */
+        position: relative;
+      }
+      .trips_det {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+        /* jecndinefndh */
+        padding: 5%;
+        gap: 10px;
+      }
+        #header{
+            width: 100vw;
+        }
+
+        #root {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            justify-content:  space-between;
+        }
+
+        #ticket_container {
+         /* background-color: antiquewhite; */
+            margin-bottom: 500px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="boxContainer">
+      <div class="leftPanel">
+        <a href="./PageMyProfile.html">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1246/1246351.png?ga=GA1.2.1823336501.1659074507"
+            alt=""
+          />
+          <div><h3 id="userName">AJ</h3></div>
+        </a>
+        <a href="./PageMytrip.html" id="mytrip.html">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1241/1241874.png?ga=GA1.2.1823336501.1659074507"
+            alt=""
+          />
+          <div>
+            <h3>My Trips</h3>
+          </div>
+        </a>
+        <a href="./PageWalletAndCard.html" id="wallet">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1235/1235458.png?ga=GA1.2.1823336501.1659074507"
+            alt=""
+          />
+          <div>
+            <h3>Wallet/ Cards</h3>
+          </div>
+        </a>
+        <a href="./PageMyProfile.html">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1246/1246348.png?ga=GA1.2.1823336501.1659074507"
+            alt=""
+          />
+          <div>
+            <h3>My Profile</h3>
+          </div>
+        </a>
+        <a href="#">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1235/1235458.png?ga=GA1.2.1823336501.1659074507"
+            alt=""
+          />
+          <div>
+            <h3>Wallet</h3>
+          </div>
+        </a>
+      </div>
+      <div class="right-panel">
+        <span class="greyText">MY Trips</span>
+
+        <div class="trips_det">
+                   
+        </div>
+    </div>
+
+    <!-- <div id="footer"></div> -->
+  </body>
+</html>
+
+<script src="./Pages.js" type="module"></script>
+<script src="./PageMytrip.js" type="module"></script>

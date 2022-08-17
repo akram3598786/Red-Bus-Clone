@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Bus</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    
+<link rel="stylesheet" href="./Mohit Codes/vishal code/landingPage.css">
+    <link rel="stylesheet" type="text/css" href="./Mohit Codes/akash code/styles/SignupLogin.css" />
+    <link rel="stylesheet" href="./Mohit Codes/redbus landing page/index.css">
+    <style>
+        #ButtonSigup,#ButtonOTPvarification,#inputName{
+            display: block;
+            margin: auto;
+        }
+    </style>
+  </head>
+
+<body>
+<!----header Block starts here-->
+<div id="header"> </div>
+<!---header block ends here---------->
+ <!-- Main Home Banner and Input Search Container -->
+ <div class="position-relative">
+    <div>
+        <div class="home-banner"></div>
+    </div>
+  
+    <div class="input-search-container">
+        <form class="d-flex justify-content-center">
+            <div class="d-inline-block position-relative">
+                <span class="inputIcon"><i class="far fa-building"></i></span>
+                <label class="inputLabel-default" for="input-label-from"></label>
+                <input id="input-label-from" class="inputForm" type="text" list="input-from-list" placeholder="From">
+                <datalist id="input-from-list">
+                    <!-- <option value="Gurgaon"></option> -->
+                </datalist>
+            </div>
+  
+            <div class="d-inline-block position-relative">
+                <span class="inputIcon"><i class="far fa-building"></i></span>
+                <label class="inputLabel-default" for="input-label-to"></label>
+                <input id="input-label-to" class="inputForm" type="text" list="input-to-list" placeholder="To">
+                <datalist id="input-to-list">
+                    <!-- <option value="Delhi"></option> -->
+                </datalist>
+            </div>
+  
+            <div class="d-inline-block position-relative">
+                <span class="inputIcon"><i class="fas fa-calendar-alt"></i></span>
+                <label class="inputLabel-default" for="input-label-onward-date"></label>
+                <input id="input-label-onward-date" class="inputForm" type="date" placeholder="Onward-Date">
+            </div>
+  
+  
+            <div class="d-inline-block position-relative">
+                <input class="btn btn-danger rounded-0 pl-3 pr-3 pb-2" type="submit" value="Search Buses">
+            </div>
+        </form>
+    </div>
+  </div>
+  
+  <a href="""></a>
+<!-- banner  -->
+<div id="poster_container">
+  
+</div>
+<div class="windowSignUp">
+    <div class="container-outer-SignUp">
+      <div class="container-inner-Signup">
+        <div class="left-side">
+          <img src="https://s3.rdbuz.com/Images/webplatform/contextualLogin/desktop-payment-offers.svg" alt="img">
+        </div>
+        <div class="right-side">
+            <div id="close" class="close">x</div>
+            <img src="../Mohit Codes/indexImages/logo.png" alt="logo" />
+            <!-- <img src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png alt=" alt="" /> -->
+            <h3  class="red-signup">Sign in to avail exciting <br>discounts and cashbacks!!</h3>
+            <input type="text" name="" class="inputGet" id="inputName"; placeholder="Enter your mobile number">
+            <button id="ButtonSigup" class="buttton" >GENERATE OTP</button>
+            <p>OR,Connect using soical accounts</p>
+            <button class="button2" >Sign in with Google</button>
+            <p>By signing up,you agree to <br> our Terms & Condition and Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+</div>
+<!--------------- OTP GENERATION WINDOW ------------>
+<div class="windowOTP">
+<div class="container-outer-OTP">
+  <div class="container-inner-OTP">
+    <div class="left-side">
+      <img src="https://s3.rdbuz.com/Images/webplatform/contextualLogin/desktop-payment-offers.svg" alt="img">
+    </div>
+    <div class="right-side-two">
+        <div id="closetwo" class="close">X</div>
+        <!-- <img src="../indexImages/logo.png" alt="logo"> -->
+        <img src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png" alt="logo">
+        <h3  class="red-signup">Sign in to avail exciting <br>discounts and cashbacks!!</h3>
+        <div id="invalidOTP"></div>
+        <input type="text" name="pin" id="inputOTP" class="input-OTP" placeholder="Enter OTP" size="4" />
+        <button id="ButtonOTPvarification" class="buttton-varify" >VERIFY OTP</button>
+        <a id="a" href="#" onclick="OTPagain()" >Resend OTP</a>
+        <button class="button-google">OTHER WAYS TO SIGN IN</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- main-div1 -->
+<div class="main-div1">
+    <div class="div1-inner ">
+        <div>
+            <p>Save up to Rs 200 in Delhi & North India</p>
+            <img src="https://st.redbus.in/Images/INDOFFER/RB200/274x148.png" alt="">
+            <p>Use Code RB200</p>
+        </div>
+        <div>
+            <p>Save up to Rs 300 on bus tickets</p>
+            <img src="https://st.redbus.in/Images/RHSS/2022/hero/274x147.png" alt="">
+            <p>Use code FIRST
+                </p>
+        </div>
+        <div>
+            <p>Save up to Rs 200 on bus tickets</p>
+            <img src="https://st.redbus.in/Images/INDOFFER/groupdeal/274x147.png" alt="">
+            <p>Use Code GROUPDEAL
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- main-div2 -->
+
+<div class="back">
+<div class="main-div2">
+   
+    <div class="div2-inner ">
+        <div class="contant">
+         <p id="heading">CONVENIENCE ON-THE-GO.</p>
+         <p id="contant">
+            Enjoy the following exclusive features on the redBus app <br><br>
+        Last Minute Booking - In a hurry to book a bus at the last minute? Choose the bus passing from your nearest boarding point and book in a few easy steps. <br><br>
+        Boarding Point Navigation - Never lose your way while travelling to your boarding point! <br><br>
+        Comprehensive Ticket Details- Everything that you need to make the travel hassle free - rest stop details, boarding point images, chat with co-passengers, wake-up alarm and much more! <br><br>
+        Enter your mobile number below to download the redBus mobile app.
+         </p>
+
+         <div class="input-div">
+            <div class="input">
+                <select name="" id="select">
+                    <option value="91">+91</option>
+                    <option value="94">+94</option>
+                    <option value="32">+32</option>
+                    <option value="54">+54</option>
+                    <option value="102">+102</option>
+                </select>
+                <input type="text" placeholder="Enter Your Mobile no..">
+            </div>
+            <div class="btn-div">
+                <button>SEND ME THE LINK</button>
+                <div class="img-div">
+                    <img src="../indexImages/Screenshot 2022-07-31 100243.png" alt="">
+                    <img src="../indexImages/googleplay.png" alt="">
+                </div>
+            </div>
+            
+         </div>
+        </div>
+        <div>
+            <img src="https://s1.rdbuz.com/web/images/home/IOS_Android_device.png" alt="">
+        </div>
+    </div>
+</div>
+<img src="" alt="" id="img">
+</div>
+
+
+
+   <!------- main-div3 ------>
+
+   <div class="main-div3">
+    <div class="div3-inner animate">
+            <img src="https://s1.rdbuz.com/web/images/home/promise.png" alt="">
+            <p>WE PROMISE TO DELIVER</p>
+        <div class="benifit-service">
+            <div>
+                <img src="https://s2.rdbuz.com/web/images/home/benefits.png" alt="">
+                <p>UNMATCHED BENEFITS</p>
+                <p>
+                    We take care of your travel beyond ticketing by <br> providing you with innovative and unique <br> benefits.
+                </p>
+            </div>
+            <div>
+                <img src="https://s1.rdbuz.com/web/images/home/customer_care.png" alt="">
+                <p>CUSTOMER  SERVICE</p>
+                <p>
+                    We put our experience and relationships to <br> good use and are available to solve your travel <br> issues.
+                </p>
+            </div>
+            <div>
+                <img src="https://s1.rdbuz.com/web/images/home/lowest_Fare.png" alt="">
+                <p>LOWEST PRICES</p>
+                <p>
+                    We always give you the lowest price with the <br> best partner offers.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+   </div>
+
+
+
+   <!-------- Award recogination div ----------->
+
+<div class="main-div4">
+    <div class="div4-inner animate">
+        <p>AWARDS & RECOGNITION</p>
+        <div class="img-box">
+            <div>
+                <img src="https://s2.rdbuz.com/web/images/home/awards/Business_Standard1.png" alt="">
+                <p>Most Innovative <br> company</p>
+           </div>
+           <div>
+               <img src="https://s1.rdbuz.com/web/images/home/awards/Brand_Trust_Report.png" alt="" id="small">
+               <p style="margin-top: 75px;">Most Trusted Brand</p>
+           </div>
+           <div>
+               <img src="https://s3.rdbuz.com/web/images/home/awards/Eye_for_Travel1.png" alt="">
+               <p >Mobile Innovation <br> Award</p>
+           </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<!--------------- India flag div ----------------->
+
+
+<div class="main-div5">
+    <div class="div5-inner animate">
+        <div class="p-tag">
+            <p> <br>
+                OUR GLOBAL PRESENCE</p>
+        </div>
+        <div class="flag-div">
+            <div>
+                <img src="../indexImages/colambia.png" alt="">
+                <p>COLOMBIA</p>
+            </div>
+            <div>
+                <img src="../indexImages/india.png" alt="">
+                <p>INDIA</p>
+            </div>
+            <div>
+                <img src="../indexImages/indo.png" alt="">
+                <p>INDONESIA</p>
+            </div>
+            <div>
+                <img src="../indexImages/malyshiy.png" alt="">
+                <p>MALAYSIA</p>
+            </div>
+            <div>
+                <img src="../indexImages/peru.png" alt="">
+                <p>PERU</p>
+            </div>
+            <div>
+                <img src="../indexImages/singapur.png" alt="">
+                <p>SINGAPUR</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--------- THE NUMBERS ARE GROWING! div ------------>
+
+<div class="main-div6">
+    <p class="p-tag">THE NUMBERS ARE GROWING!</p>
+    <div class="div6Inner animate">
+       
+        <div>
+            <p>CUSTOMERS</p>
+            <p class="red-tag">36 M</p>
+            <p>
+                redBus is trusted by over 36 <br> million happy customers <br> globally
+            </p>
+        </div>
+        <div>
+            <p>OPERATORS</p>
+            <p class="red-tag">3500</p>
+            <p>
+                network of over 3500 bus <br> operators worldwide
+            </p>
+        </div>
+        <div>
+            <p>BUS TICKETS</p>
+            <p class="red-tag">220+ M</p>
+            <p>
+                Over 220 million trips <br> booked using redBus
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-------- bus route and all city div  --------->
+
+
+<div class="main-div7">
+    <div class="div7-inner animate">
+        <div>
+            <ul style="list-style-type:none">
+                <li class="ul-li-heading">Top Bus Route</li>
+                <li>Hyderabad to Bangalore Bus</li>
+                <li>Bangalore to Chennai Bus</li>
+                <li>Pune to Bangalore Bus</li>
+                <li>Mumbai to Bangalore Bus</li>
+                <li>More ></li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:none">
+                <li class="ul-li-heading">Top Cities</li>
+                <li>Hyderabad Bus Tickets</li>
+                <li>Banglore Bus Service</li>
+                <li>Chennai bus Tickets</li>
+                <li>Pune Bus Tickets</li>
+                <li>More ></li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:none">
+                <li class="ul-li-heading">Top RTC's</li>
+                <li>APSRTC</li>
+                <li>GSRTC</li>
+                <li>MSRTC</li>
+                <li>TNSTC</li>
+                <li>More ></li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:none">
+                <li class="ul-li-heading">Other</li>
+                <li>TSRTC</li>
+                <li>SBRTC</li>
+                <li>RSRTC</li>
+                <li>KeralaRTC</li>
+                <li>More ></li>
+            </ul>
+        </div>
+        <div>
+            <ul style="list-style-type:none">
+                <li class="ul-li-heading">Tempo Traveller in Cities</li>
+                <li>Tempo traveller in Bangalore</li>
+                <li>Tempo traveller in chennai</li>
+                <li>Tempo traveller in Hyderabad</li>
+                <li>Tempo traveller in Mumbai</li>
+                <li>Tempo traveller in Ahmedabad</li>
+            </ul>
+            
+        </div>
+     </div>
+  
+<hr>
+     <div class="top-oprator animate">
+        <p>Top Oprator</p>
+        <p>SRS Travels  | Kallada Travels | KPN Travels | Orang Travels | Praveen Travels | Rajadhani Travels | VRL Travels |  Chrtered  Bus | Bengal Tiger | <br>
+            SRM Travels | Infant Jesus | Patel Travels | JBT travels | Shatabdi Travels | Egal Travels | Kanker Roadwars | Komitla | Sri Krishna travels | <br> Humsafar Travels |  Mahasagar Travels | Raj  Express | Sharma Travels | Shrinath Travels | Universal Travels | Verma Travels | Gujrat Travels | <br> Madurai Travels | Patel Tour And Travels | Paulo Travels | Royal Travels | Amarnath Travels | Vaibhav Travels |  Ganesh Travels | Jabbar Travels | <br> Jain Travels |  Manish Travels |  Pradhan Travels | YBM Travels | Hebron Transport |  Mahalaxmi Travels | MR Travels | <br>  Vivegam travels | VST Travels | Jaksha Travels | Mahendra Travels | Neeta Tours And Travels | Yamini Travels | Arthi Travels</p>
+            <p>All Oprator ></p>
+     </div>
+</div>
+
+
+<!------------ main page fooder div ------------>
+<div class="main-div8">
+<div class="div8-inner">
+    <div>
+    <ul>
+        <li class="ul-li-head">About RedBus</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Mobile Version</li>
+        <li>RedBus On Mobile</li>
+        <li>Sitemap</li>
+        <li>Offers</li>
+        <li>Careers</li>
+        <li>Values</li>
+    </ul>
+
+    </div>
+    <div>
+        <ul>
+            <li class="ul-li-head">Info</li>
+            <li>T & C</li>
+            <li>Privacy Policy</li>
+            <li>FAQ</li>
+            <li>Blog</li>
+            <li>Bus Oprator Registration</li>
+            <li>Agent Registration</li>
+            <li>Insurance Partner</li>
+            <li>User Agreement</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="ul-li-head">Global Site</li>
+            <li>India</li>
+            <li>Singapor</li>
+            <li>Malaysia</li>
+            <li>Peru</li>
+            <li>Indonesia</li>
+            <li>Colombia</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="ul-li-head">Our Partener</li>
+            <li>Goibibo</li>
+            <li>Makemytrip</li>
+        </ul>
+    </div>
+    <div class="red-bus">
+        <img src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png" alt="">
+        <p>redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</p>
+        <div class="img">
+            <img src="./indexImages/facebook.png" alt=""><img src="./indexImages/twitter.png" alt="">
+        </div>
+        <p>Ⓒ 2022 ibibogroup All rights reserved</p>
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
+<script src="./Login files/SignupLogin.js" type="module" ></script>
+<script src="./Login files/otp.js"></script>
+<script src="./Mohit Codes/vishal code/lsndingPage.js"></script>
+<script src="./Mohit Codes/redbus landing page/index.js"></script>

@@ -1,0 +1,1222 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#promoButton{
+  border: 0px;
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#promoButton:hover{
+  background-color: #bdc3ca;
+}
+
+footer,header,
+section {
+  display: block;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+b {
+  font-weight: 700;
+}
+img {
+  border: 0;
+}
+button,
+input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button {
+  text-transform: none;
+}
+button {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[class*=" icon-"],
+[class^="icon-"] {
+  font-family: icomoon !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-down:before {
+  content: "\E996";
+}
+.icon-profile-new-unsigned:before {
+  content: "\E9E6";
+}
+.icon-right-arrow:before {
+  content: "\EA03";
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+a,
+img {
+  border: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.w-100 {
+  width: 100%;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+::-webkit-input-placeholder {
+  color: #c7c7c7;
+}
+::-moz-placeholder {
+  color: #c7c7c7;
+}
+:-ms-input-placeholder {
+  color: #c7c7c7;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#rh_main {
+  min-width: 1000px;
+  position: relative;
+  min-height: 100%;
+}
+.footer-row,
+.main-body,
+.main-header {
+  min-width: 1000px;
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main-header {
+  min-width: 1200px;
+}
+.main-body {
+  padding: 0 20px;
+}
+.main-header {
+  overflow: visible !important;
+  padding: 10px 20px !important;
+  padding-right: 0 !important;
+}
+.hide {
+  display: none !important;
+}
+#rh_footer {
+  background-color: #1b2330;
+}
+.exit-reshedule-confirm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  z-index: 999999;
+}
+.exit-reshedule-confirm .exit-btns-grp {
+  margin: 0 auto;
+  width: 205px;
+}
+.exit-reshedule-confirm .exit-reschedule-btns {
+  height: 35px;
+  width: 100px;
+  border-width: 0;
+  background-color: #d74f57;
+  color: #fff;
+  margin-top: 0;
+  box-shadow: 1px 2px 3px #888;
+  text-align: center;
+  cursor: pointer;
+}
+.main-header {
+  margin: 0 auto;
+}
+#rh_header {
+  background-color: #efeeee;
+  width: 100%;
+  margin: 0;
+  height: 60px;
+}
+.redbus-logo {
+  width: 79px;
+  height: 49px;
+  text-indent: -1000px;
+  float: left;
+  background: url(https://www.redbus.in/i/2cd0eea3d94c22f3f2a127ec67f2810f.png)
+    no-repeat;
+  margin-top: -4px;
+}
+button:focus {
+  outline: none;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  font-size: 14px;
+  font-weight: 100;
+  color: #e7e7e7;
+}
+
+@media only screen and (max-width: 1200px) {
+  .payment-container-right{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+}
+.promotion {
+  color: #b1babf;
+  padding: 30px 0;
+}
+.icon-right-arrow:before {
+  vertical-align: middle;
+  font-size: 12px;
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+::-webkit-scrollbar-track:hover {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+::-webkit-scrollbar-thumb {
+  min-height: 25px;
+  background-color: #bbb;
+  box-shadow: inset 1px 1px 0 #aaa, inset 0 -1px 0 #aaa;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+  box-shadow: inset 1px 1px 0 #999, inset 0 -1px 0 #999;
+}
+.config-div {
+  position: relative;
+  color: #686868;
+  outline: 0;
+}
+.hid-config-sign {
+  width: 230px;
+  border: 1px solid #ccc;
+  padding: 8px 6px 0;
+  position: absolute;
+  left: -174px;
+  z-index: 100;
+  top: 30px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 1px 5px #000;
+}
+.ich {
+  vertical-align: middle !important;
+}
+.ich {
+  font-size: 12px;
+  line-height: inherit !important;
+  position: relative;
+}
+.toparrowhead-sign {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 61%;
+  margin-left: -5px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent transparent #fff;
+}
+.config-options {
+  display: inline-block;
+  width: 100%;
+  margin: 5px 2px 8px;
+  line-height: 16px;
+}
+.dib {
+  display: inline-block;
+}
+.config-list {
+  margin-bottom: 10px;
+  font-family: Montserrat !important;
+  font-size: 12px;
+  color: #4a4a4a;
+}
+.config-list li:before {
+  content: none;
+}
+.footer-links {
+  margin-bottom: 5px;
+}
+.pR {
+  position: relative;
+}
+.corner-wrapper {
+  font-size: 12px;
+}
+.corner-wrapper .icon {
+  width: 12px;
+  height: 12px;
+}
+.icon-down {
+  font-weight: 700;
+}
+.signin-block {
+  margin-top: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  min-width: 58px;
+  min-height: 34px;
+}
+.signin-block .icon-down {
+  float: right;
+  margin-top: 17px;
+  margin-left: 8px;
+  font-size: 12px;
+}
+.signin-block .toparrowhead-sign {
+  left: 79%;
+}
+.signin-block .hid-config-sign {
+  left: -200px;
+  top: 35px;
+}
+#signin_dd .config-list {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#signin_dd .config-options {
+  line-height: 25px;
+}
+.signin-block .icon-down {
+  color: #686868;
+}
+.icon-profile-new-unsigned {
+  font-size: 33px;
+  margin-right: 5px;
+}
+.icon-profile-new-unsigned {
+  width: 33px;
+  height: 33px;
+}
+.icon-down_WO_BAL {
+  top: -9px;
+  left: -4px;
+}
+.walletBalanceHeader {
+  top: 6px;
+  left: 40px;
+  position: absolute;
+}
+.full-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafc;
+}
+.full-container .timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  padding: 0 5%;
+  background-color: #d84e55;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+}
+.full-container .timer-container .timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #ffef96;
+}
+.full-container .timer-container .timer .journey-info {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+.full-container .timer-container .timer .journey-info span:before {
+  color: #ffef96 !important;
+}
+.full-container .timer-container .timer .journey-info div {
+  margin-right: 1em;
+}
+.full-container .timer-container .timer .time {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+.full-container .timer-container .timer .time .timer-text {
+  margin-right: 1em;
+}
+.full-container .timer-container .timer .time img {
+  margin-right: 0.5em;
+}
+.full-container .payment-container {
+  margin: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.full-container .payment-container .payment-container-left {
+  width: 60%;
+}
+.full-container .payment-container .payment-container-left .wallet-container {
+  margin: 1% 0;
+}
+.full-container .payment-container .payment-container-left .info-banner {
+  margin-top: 1em;
+}
+.full-container
+  .payment-container
+  .payment-container-left
+  .payment-instruments-container
+  .payment-instruments {
+  display: flex;
+  flex-direction: column;
+}
+.full-container
+  .payment-container
+  .payment-container-left
+  .payment-instruments-container
+  .payment-instruments
+  .pi-title {
+  margin: 2em 0 1em;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.26;
+  color: #3e3e52;
+}
+.full-container
+  .payment-container
+  .payment-container-left
+  .payment-instruments-container
+  .payment-instruments
+  .pi-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.43;
+  color: #747f8d;
+  margin: 1em 0;
+}
+.full-container
+  .payment-container
+  .payment-container-left
+  .payment-instruments-container
+  .payment-instruments
+  .pi {
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.12);
+}
+.full-container
+  .payment-container
+  .payment-container-left
+  .payment-instruments-container
+  .payment-instruments
+  .mt-30 {
+  margin-top: 30px;
+}
+.full-container
+  .payment-container
+  .payment-container-left
+  .payment-instruments-container
+  .payment-instruments
+  .pi-wrap {
+  margin: 1rem 0;
+}
+.full-container
+  .payment-container
+  .payment-container-left
+  .payment-instruments-container
+  .payment-instruments
+  .pi-wrap.no-mt {
+  margin-top: 0;
+}
+.full-container .payment-container .payment-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 7.5em;
+}
+.full-container
+  .payment-container
+  .payment-container-right
+  .fare-breakup-container,
+.full-container
+  .payment-container
+  .payment-container-right
+  .journey-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.full-container
+  .payment-container
+  .payment-container-right
+  .payment-banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3em;
+  margin-bottom: 2em;
+}
+.full-container
+  .payment-container
+  .payment-container-right
+  .payment-banner-container
+  img {
+  max-height: 24px;
+  max-width: 70px;
+}
+.hotDealOffer-container {
+  margin-bottom: 2em;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.12);
+}
+/*! CSS Used from: Embedded */
+.bzMtLr {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.118) 0px 3px 11px 0px;
+  width: 100%;
+  height: 100%;
+}
+.givbgs {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 1.2em;
+}
+.givbgs .title {
+  font-weight: bold;
+  color: rgb(216, 78, 85);
+  margin-bottom: 10px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.givbgs .title .expand-icon {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.givbgs .breakup-lbl {
+  line-height: 1.71;
+  color: rgb(62, 62, 82);
+  font-weight: bold;
+  padding: 0.5em 0px 0px;
+}
+.givbgs .fareBreakupComp {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0.25em 0px;
+  color: rgb(74, 74, 74);
+}
+.jeiDQS {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.118) 0px 3px 11px 0px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}
+.jeiDQS .icon-div {
+  align-self: center;
+  margin-right: 1em;
+}
+.jeiDQS .trip-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.12em;
+}
+.jeiDQS .trip-container .trip-lbls {
+  color: rgb(116, 127, 141);
+  font-size: 12px;
+  line-height: 1.33;
+  padding-bottom: 5px;
+}
+.jeiDQS .trip-container .travel-info {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.jeiDQS .trip-container .travel-info .travel-operator-info {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  flex: 1 1 0%;
+}
+.jeiDQS .trip-container .travel-info .travel-operator-info .travel-title {
+  color: rgb(216, 78, 85);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.38;
+  padding-right: 3%;
+}
+.jeiDQS .trip-container .travel-info .travel-operator-info .travel-lbl {
+  color: rgb(116, 127, 141);
+  font-size: 12px;
+  line-height: 1.33;
+}
+.jeiDQS .trip-container .trip-info {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.jeiDQS .trip-container .trip-info .cal-icon {
+  background: url(https://s3.rdbuz.com/Images/webplatform/Common/Payment/calendar.svg)
+    0% 0% / contain no-repeat;
+  height: 24px;
+  width: 24px;
+}
+.jeiDQS .trip-container .trip-info .loc-icon {
+  background: url(https://s3.rdbuz.com/Images/webplatform/Common/Payment/location.svg)
+    0% 0% / contain no-repeat;
+  height: 24px;
+  width: 24px;
+}
+.jeiDQS .trip-container .trip-info .bpdp-info-left {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 55%;
+}
+.jeiDQS .trip-container .trip-info .bpdp-info-right {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 45%;
+}
+.jeiDQS .trip-container .trip-info .trip-info-left {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 60%;
+}
+.jeiDQS .trip-container .trip-info .trip-info-right {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 40%;
+}
+.jeiDQS .trip-container .trip-info .trip-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.jeiDQS .trip-container .trip-info .trip-data .trip-subtitle {
+  color: rgb(62, 62, 82);
+}
+.jeiDQS .passengers-list {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(250, 229, 229);
+  padding: 1.12em;
+  min-height: 1.76em;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.jeiDQS .passengers-list .passengers-item {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 2% 0px;
+}
+.jeiDQS .passengers-list .passengers-item .passengers-info {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.jeiDQS
+  .passengers-list
+  .passengers-item
+  .passengers-info
+  .passengers-info-icon {
+  background: url(https://s3.rdbuz.com/Images/webplatform/Common/Payment/my-account.svg)
+    0% 0% / contain no-repeat;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+.jeiDQS .passengers-list .passengers-item .passengers-info .passengers-name {
+  color: rgb(116, 127, 141);
+  font-weight: bold;
+  padding-right: 10px;
+}
+.jeiDQS .line {
+  height: 1em;
+  border-bottom: 0.5px solid rgb(222, 222, 222);
+  margin-bottom: 1em;
+}
+.JOwjJ {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+.JOwjJ .radio-label {
+  font-weight: normal;
+}
+.bNDHPM {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  border: 1.8px solid rgb(200, 200, 200);
+}
+.iCLQCa {
+  opacity: 0;
+  z-index: 1;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.iCLQCa:hover ~ .sc-dnqmqq {
+  background: rgb(255, 255, 255);
+  border-color: rgb(216, 78, 85);
+}
+.iCLQCa:hover ~ .sc-dnqmqq::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 2.3px;
+  background: rgb(216, 78, 85);
+}
+.iCLQCa:checked + .sc-dnqmqq {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(216, 78, 85);
+}
+.iCLQCa:checked + .sc-dnqmqq::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 3px;
+  background: rgb(216, 78, 85);
+}
+.kwoLib {
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  padding: 1.3em;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.kwoLib .icon-list {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.kwoLib .icon-img {
+  margin-left: 10px;
+  max-height: 1.3em;
+}
+.imKSDY {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgb(62, 62, 82);
+}
+.imKSDY .title-left,
+.imKSDY .title-right {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-right: 2em;
+}
+.imKSDY .title-right .step-detail {
+  color: rgb(62, 62, 82);
+  font-size: 14px;
+  line-height: 1.43;
+}
+.imKSDY .no-padding-right {
+  padding-right: 0px;
+}
+.imKSDY .instruction-info {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgb(37, 90, 185);
+}
+.fAMuPp {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: auto;
+  height: 60px;
+  border: 1px dashed rgb(221, 221, 221);
+  padding: 0px 20px;
+  background-color: rgb(255, 255, 255);
+}
+.fAMuPp .banner-chip {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.fAMuPp .banner-chip .banner-img {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px 1em 0px 0px;
+}
+.fAMuPp .banner-chip .banner-img img {
+  width: 36px;
+}
+.fAMuPp .banner-chip .banner-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: rgb(126, 126, 140);
+}
+.ddpshm {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 11px 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 1em;
+  pointer-events: auto;
+  opacity: 1;
+}
+.ddpshm input {
+  flex: 1 1 0%;
+  font-size: 14px;
+}
+.ddpshm input {
+  border: none;
+  outline: none;
+}
+.ddpshm input:disabled {
+  background-color: rgb(255, 255, 255) !important;
+}
+.ddpshm input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: rgb(126, 126, 140);
+  text-transform: uppercase;
+}
+.ddpshm input::placeholder {
+  font-size: 14px;
+  color: rgb(126, 126, 140);
+  text-transform: uppercase;
+}
+.igNxVc {
+  display: none;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 40px;
+  min-width: 85px;
+  padding: 0px 5px;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(70, 89, 134);
+  opacity: 0.5;
+  pointer-events: none;
+}
+.igNxVc:hover {
+  cursor: not-allowed;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: icomoon;
+  src: url(https://www.redbus.in/6b3d42668f3bf502b4f8afb7d1a07004.eot);
+  src: url(https://www.redbus.in/6b3d42668f3bf502b4f8afb7d1a07004.eot#iefix)
+      format("embedded-opentype"),
+    url(https://www.redbus.in/194018ebdac7220f980f03b58ac96b99.ttf)
+      format("truetype"),
+    url(https://www.redbus.in/2c9d264a23900f37cdab3801af25f42e.woff)
+      format("woff"),
+    url(https://www.redbus.in/17ae81c6cce8af2063563c4a2e8ab06b.svg#icomoon)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+/*! CSS Used from: https://www.redbus.in/stylesheets/payTwo.53636350f75c0c6e1cf51b90eb4ac578.bundle.css */
+input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+  color: #c7c7c7;
+}
+::-moz-placeholder {
+  color: #c7c7c7;
+}
+:-ms-input-placeholder {
+  color: #c7c7c7;
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+::-webkit-scrollbar-track:hover {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+::-webkit-scrollbar-thumb {
+  min-height: 25px;
+  background-color: #bbb;
+  box-shadow: inset 1px 1px 0 #aaa, inset 0 -1px 0 #aaa;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+  box-shadow: inset 1px 1px 0 #999, inset 0 -1px 0 #999;
+}
+.upi-vpa {
+  font-size: 12px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #7e7e8c;
+}
+.upi-vpa .find-upi-id {
+  color: #255ab9;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.upi-vpa .enter-upi-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.upi-vpa .enter-upi-container .enter-upi {
+  border-radius: 4px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 16px;
+  align-items: center;
+}
+.upi-vpa .enter-upi-container .enter-upi input {
+  border: 0;
+  width: 250px;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2a2a2a;
+}
+.upi-vpa .enter-upi-container .enter-upi input:focus {
+  outline: none;
+}
+.upi-vpa .enter-upi-container .enter-upi .eupi-verify {
+  font-size: 14px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #255ab9;
+  cursor: pointer;
+}
+.upi-vpa .enter-upi-container .pay-now-disabled {
+     border-radius: 3px;
+    /* background-color: #cacaca; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 16px 43px;
+    font-size: 14px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #828282;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+/*! CSS Used from: Embedded */
+.kgFHhh {
+  background: rgb(255, 255, 255);
+  padding: 1em 2em;
+}
+.iGrraY{
+  display: flex;
+}
+.payment-container-right{
+  width: 30%;
+    position: absolute;
+    left: -1;
+    right: -1px;
+    top: 30%;
+}

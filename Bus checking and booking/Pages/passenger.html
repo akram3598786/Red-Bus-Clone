@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pasenger Details</title>
+    <link rel="stylesheet" href="../styles/passengerDetails.css" />
+    <link rel="stylesheet" href="../styles/passenger.css" />
+    <style>
+      .button-container {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main_container">
+      <div id="container">
+        <div class="passenger_details">
+          <h2>Passenger Details</h2>
+        </div>
+        <div class="passenger_information">
+          <img src="../images/userLogo.png" alt="logo" />
+          <span>Passenger Information</span>
+        </div>
+
+        <!-- passenger 1 details -->
+
+        <div class="box1">
+          <div class="class1">
+            <span>Passenger 1 &nbsp; | </span>
+            <span class="seat">seat L17</span>
+          </div>
+          <div class="name">
+            <label for="">Name</label>
+            <input id="inputName" type="text" placeholder="Name" />
+          </div>
+
+          <div id="box">
+            <div>
+              <div class="gender">
+                <label for="">Gender</label>
+              </div>
+
+              <div class="gender_bottom">
+                <div>
+                  <input
+                    class="genderName"
+                    type="radio"
+                    name="gender"
+                    value="M"
+                 
+                  />
+                  <label for="">Male</label>
+                </div>
+                <div>
+                  <input
+                    class="genderName"
+                    type="radio"
+                    name="gender"
+                    value="F"
+                  
+                  />
+                  <label for="">Female</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- age -->
+
+            <div>
+              <div class="age">
+                <label for="" class="age1">Age</label>
+                <input id="input" type="text" name="age" placeholder="Age" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact Details  -->
+        <div id="contactDetails">
+          <img
+            id="img"
+            src="../images/contactDetail.png"
+            alt="contactDetails"
+          />
+          <span> &nbsp; <b>Contact Details</b></span>
+        </div>
+
+        <!-- email and phone numbers -->
+        <div id="emailBox">
+          <div class="ticket">Your ticket will be sent to these details</div>
+          <div class="email">
+            <label for="">Email ID</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email addresses"
+            />
+          </div>
+          <div class="phone">
+            <div>
+              <label for="">Phone</label>
+            </div>
+            <div class="phoneNo">
+              <div class="border">+91 &nbsp;</div>
+              <input
+                id="phoneNumber"
+                type="number"
+                name="phone"
+                placeholder="Phone Number"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- GST Number -->
+
+        <div class="passenger_info_content_block clearfix">
+          <div class="rucDetails_block">
+            <div>
+              <label class="rucLabel checkbox_css"
+                ><input
+                  type="checkbox"
+                  id="RUCFeature"
+                  class="input-checkbox hide"
+                /><label
+                  for="RUCFeature"
+                  id="RUCFeatureCheckBox"
+                  class="checkmark"
+                ></label
+                ><span class="ruc-txt"
+                  >I have a GST number (optional)?</span
+                ></label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="whatsApp_block">
+          <label class="checkbox_css"
+            ><input
+              type="checkbox"
+              id="whatsAppFeature"
+              class="input-checkbox hide"
+              checked=""
+            /><label
+              for="whatsAppFeature"
+              id="whatsAppFeatureCheckBox"
+              class="checkmark"
+            ></label
+            ><span class="icon-whatsApp"></span
+            ><span class="subscribe-txt"
+              >Send booking details and updates on WhatsApp number
+            </span></label
+          >
+        </div>
+        <div></div>
+        <div>
+          <div class="">
+            <div id="travel-ins" class="insurance-block">
+              <div class="insurance-msg">
+                <div class="rap_heading">
+                  <div class="bcp_tcp_title">
+                    <img
+                      src="https://st.redbus.in/images/insurance-section/rap_redbus.png"
+                      alt="img"
+                      width="40px"
+                    />redBus Assurance Program
+                  </div>
+                  <div class="rap_link_div">
+                    <a
+                      target="_blank"
+                      class="tnc_link"
+                      href="https://www.redbus.in/info/ins_bcp_terms.html"
+                      >T&amp;C Apply</a
+                    >
+                  </div>
+                </div>
+                <div class="insurance_new_subtitle">
+                  Secure your trip just at<span
+                    class="insurance_new_subtitle_1"
+                  >
+                    ₹ 17 </span
+                  >per passenger
+                </div>
+              </div>
+              <div class="benefits-block">
+                <div>
+                  <img
+                    class="benefits-img"
+                    width="70px"
+                    height="70px"
+                    src="https://st.redbus.in/images/insurance-section/bus_cancellation.png"
+                  />
+                  <div class="benefits-title">Upto ₹ 500</div>
+                  <div class="benefits-desc">
+                    extra refund on ticket price if the bus is cancelled.
+                  </div>
+                </div>
+                <div>
+                  <img
+                    class="benefits-img"
+                    width="70px"
+                    height="70px"
+                    src="https://st.redbus.in/images/insurance-section/hospital.png"
+                  />
+                  <div class="benefits-title">Upto ₹ 75,000</div>
+                  <div class="benefits-desc">
+                    in the event of accidental hospitalisation
+                  </div>
+                </div>
+                <div>
+                  <img
+                    class="benefits-img"
+                    width="70px"
+                    height="70px"
+                    src="https://st.redbus.in/images/insurance-section/accident.png"
+                  />
+                  <div class="benefits-title">Upto ₹ 5Lakh</div>
+                  <div class="benefits-desc">in case of death/PTD/PPD</div>
+                </div>
+              </div>
+              <div class="insurance_container">
+                <div class="bottomRow insurance-radio">
+                  <label class="ins-container"
+                    ><span>Yes, Protect my trip at </span
+                    ><span class="ins_price">₹ 17</span
+                    ><span class="noOfPsng">(1 passenger)</span> ,I agree to the
+                    <a
+                      href="https://www.redbus.in/info/ins_bcp_terms.html"
+                      target="_blank"
+                      >Terms and Conditions</a
+                    ><input
+                      type="radio"
+                      id="insuranceOpted_rap"
+                      class="policyCheckBox policyCheckBoxtrueradio"
+                      name="policyCheckBox"
+                      value="yes" /><span class="checkmark-radio"></span></label
+                  ><label class="ins-container"
+                    >No, I would like to proceed without insurance<input
+                      type="radio"
+                      id="insuranceNotOpted_rap"
+                      class="policyCheckBox policyCheckBoxfalseradio"
+                      name="policyCheckBox"
+                      value="no" /><span class="checkmark-radio"></span
+                  ></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cmTdod gGUFYj">
+          <div class="addonsContainer">
+            <div class="sc-TOsTZ iAKMtT">
+              <header class="addons_header">
+                <div class="addons_container">
+                  <div class="sc-feJyhm bkjigA">
+                    <span class="img-icon"><img src="#" alt="" /></span
+                    >Additional Services
+                  </div>
+                  <div class="sc-kafWEX extnmI">
+                    Check out our new additional services at exciting prices
+                  </div>
+                  <div class="sc-ksYbfQ bpTpAZ">
+                    <div class="sc-kgAjT jhnrcw">
+                      <div class="display_addons_block">
+                        <div class="sc-cJSrbW bHRLMK">
+                          <img
+                            src="https://st.redbus.in/images/addon/karkinos/ADD-on-7%20copy%202.png"
+                            alt="img"
+                            id="imgnew-0"
+                            class="sc-jbKcbu eoIuDj"
+                          />
+                          <div class="sc-dNLxif kbMuSF">Top Selling</div>
+                          <div class="sc-jqCOkK kUyzZ">
+                            <div class="sc-uJMKN dvsNfT">
+                              Digital risk assessment for 6 types of cancers
+                            </div>
+                            <div class="sc-bbmXgH lgAudw">
+                              <span class="sc-gGBfsJ bDarxl"
+                                >₹<span id="addons_display_price-0"
+                                  >99</span
+                                ></span
+                              ><span>/ 1</span>
+                            </div>
+                          </div>
+                          <div class="sc-frDJqD hHzVqk">
+                            <div class="sc-jnlKLf iEZkLf">view details</div>
+                            <span class="input_div_new" id="input_div_new"
+                              ><input
+                                type="button"
+                                id="minus_addons-0"
+                                class="minus_addons"
+                                value="-" /><input
+                                type="number"
+                                class="count_plus"
+                                max="30"
+                                min="1"
+                                id="count_plus-0"
+                                disabled=""
+                                value="0" /><input
+                                type="button"
+                                id="plus_addons-0"
+                                class="plus_addons"
+                                value="+"
+                            /></span>
+                          </div>
+                          <div class="sc-iELTvK qlkKh"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            </div>
+          </div>
+        </div>
+        <div class="addOn_block">
+          <div class="addOnTitle clearfix">
+            <span class="fl p-title"
+              >redBus Cares: your contribution makes a difference!</span
+            >
+          </div>
+          <label class="checkbox_css">
+            <div class="displayFlex">
+              <div>
+                <input
+                  type="checkbox"
+                  id="addOnFeature"
+                  class="input-checkbox hide"
+                /><label
+                  for="addOnFeature"
+                  id="addOnFeatureCheckBox"
+                  class="checkmark"
+                ></label>
+              </div>
+              <div class="icon-red_care"></div>
+              <div class="subscribe-txt">
+                Donate ₹5 for COVID-19 Relief and Other Charity Initiatives.
+              </div>
+            </div>
+          </label>
+          <div class="moreTnc-tooltip displayFlex">
+            <span>Know more</span
+            ><span>
+              <ul class="addOnTnc">
+                <ol>
+                  <li class="addOnList">
+                    <span lang="EN-US"
+                      >The amount received as donation will be used for
+                      charitable causes. redBus will donate the collected amount
+                      to MakeMyTrip Foundation (a public trust registered with
+                      charitable objects) or such other similar charitable
+                      organizations to help create a social impact.</span
+                    >
+                  </li>
+                  <li class="addOnList">
+                    <span lang="EN-US"
+                      ><span id=":7og.co" class="tL8wMe EMoHub" dir="ltr"
+                        >The contributions made will be refunded in case of
+                        cancellation of tickets.</span
+                      ></span
+                    >
+                  </li>
+                  <li class="addOnList">
+                    <span lang="EN-US"
+                      >You hereby voluntarily choose to contribute to the social
+                      cause and by proceeding to donate the money, you do so at
+                      own risk and expressly waive any and all claims, rights of
+                      action and/or remedies (under law or otherwise) that you
+                      may have against redBus arising out of or in connection
+                      with the aforesaid transaction.</span
+                    >
+                  </li>
+                  <li class="addOnList">
+                    <span lang="EN-US"
+                      >By proceeding to donate the money, You understand and
+                      confirm that this donation is not from any foreign source
+                      as defined under Foreign Contribution Regulation Act,
+                      2010.</span
+                    >
+                  </li>
+                  <li class="addOnList">
+                    No certificate under Section 80G of the Income Tax Act, 1961
+                    will be issued.
+                  </li>
+                  <li class="addOnList">
+                    In case of any queries, kindly reach out at "Help"/"Support"
+                    section of redBus.
+                  </li>
+                </ol>
+              </ul>
+            </span>
+          </div>
+        </div>
+
+        <div class="clearfix continue-booking withpptclink">
+          <div class="pptnc-link">
+            By clicking on proceed, I agree that I have read and understood the
+            <a href="/info/termscondition" target="_blank">TnCs</a> and the
+            <a href="/info/privacypolicy" target="_blank">Privacy Policy</a>
+          </div>
+          <div class="pR">
+            <div class="booking-amt-details fl clearfix f-bold">
+              <div class="booking-amt-title fl">Total Amount :</div>
+              <div class="booking-amt fl">
+                INR<span id="tot_price" class="f-bold">1500.00</span>
+              </div>
+            </div>
+
+            <div class="button-container fr">
+              <!-- <button onclick="postData()" type="submit" class="button main-btn gtm-continueBooking"
+                        value="Proceed to pay"> -->
+              <button
+                id="submit_btn"
+                onclick="postData()"
+                class="button main-btn gtm-continueBooking"
+              >
+                Proceed to pay
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  let booking_details = JSON.parse(localStorage.getItem("booking_details"));
+  let today = new Date();
+  let time = today.getHours() + " : " + today.getMinutes();
+  let date =
+    today.getDate() + " - " + today.getMonth() + " - " + today.getFullYear();
+  let date_time = time + "  " + date;
+
+  document.getElementById("tot_price").innerHTML = booking_details.tot_price;
+
+  async function postData() {
+    let input_obj = JSON.parse(localStorage.getItem("user_inputs"));
+    let name = document.getElementById("inputName").value;
+    // let genderName = document.querySelector(
+    //   `input[name="gender"]:checked`
+    // ).value;
+
+    let age = document.querySelector("#input").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phoneNumber").value;
+    //  store values in local storage
+    
+    let seatNo = localStorage.getItem("selected_seat_id");
+    let busNo = localStorage.getItem("selected_busID");
+    seatNo = parseInt(seatNo);
+    busNo = parseInt(busNo);
+    let ticketNo = 200 + seatNo + busNo;
+    localStorage.setItem("ticketNo", ticketNo);
+
+    let ticketDetails = {
+      name: name,
+      // gender: genderName,
+      age: age,
+      email: email,
+      phone: phone,
+      booked_bus: booking_details.booked_bus,
+      booked_seatID: booking_details.booked_seatID,
+      booked_price: booking_details.tot_price,
+      cur_Dt_time: date_time,
+      user_points_input: input_obj,
+      ticketN0: ticketNo,
+    };
+    localStorage.setItem("booking_details",JSON.stringify(ticketDetails));
+    //    console.log(userDetails);
+    let url = `http://localhost:3000/Tickets`;
+    let res = await fetch(url, {
+      method: "POST",
+      body: JSON.stringify(ticketDetails),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    StoreValues();
+    location.href = "../Payment_Page/payment.html";
+  }
+
+//   store value for details page don't change this values
+   function StoreValues() {
+    let name = document.getElementById("inputName").value;
+
+    let age = document.getElementById("input").value;
+    let OBj = {
+        name: name,
+        age:age
+
+    }
+    console.log(OBj);
+    localStorage.setItem("user_data" , JSON.stringify(OBj));
+    
+   }
+   
+</script>

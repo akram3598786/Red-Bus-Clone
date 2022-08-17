@@ -1,0 +1,73 @@
+#root{
+    /* height: 720px; */
+    width: 1580px;
+    /* min-height: 720px; */
+    /* display: block; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+  /* background-color: #202324; */
+}
+.cancelfromMain{
+    /* height: 261px; */
+    width: 720px;
+    margin: 0 140px 0 140px;
+    text-align: center;
+    color: #bbb5ac;
+    /* border: 1px solid; */
+
+}
+.cancel-heading{
+   
+    color: #bbb5ac;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.34px;
+    line-height: 22px;
+    text-align: center;
+    height: 55px;
+    width: 720px;
+    padding: 32px 0 0 0;
+    display: block;
+}
+
+
+
+.cancel-container{
+    width: 720px;
+    /* height: 143px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin: 64px 0 0 0; */
+    /* border: 1px solid; */
+}
+.cancel-container > * {
+    margin: 20px;
+}
+.cancel-container > input{
+    height: 20px;
+    width: 228px;
+    border: 0;
+    border-bottom: 1px solid #545b5e;
+    padding: 11px 11px 11px 36px;
+    outline: 0;
+    cursor: text;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    /* background-color: #202324 ; */
+}
+#cancel-button{
+    background-color: #d84f57;
+    height: 40px;
+    width: 152px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #e8e6e3;
+    border: none;
+    text-decoration: none solid rgb(232, 230, 227);
+}
