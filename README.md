@@ -12,9 +12,9 @@ Red-Bus is India's largest online bus ticketing platform that has transformed bu
 ## 🔗 Links
 Team Mates - 
 
-1. Vishal Karale - https://github.com/vishalvsk
+1. Akram Ali     - https://github.com/akram3598786
 2. Akash Jadhav  - https://github.com/Akashjadhav55
-3. Akram Ali     - https://github.com/akram3598786
+3. Vishal Karale - https://github.com/vishalvsk
 4. Mohit Sharma  - https://github.com/mohitsharma9001
 
 
