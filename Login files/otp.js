@@ -39,7 +39,7 @@ document.getElementById("ButtonOTPvarification").addEventListener("click" ,funct
     if(GetOTP == GetInput){
         alert("Login Successfully")
         document.getElementById("invalidOTP").style.display = "none";
-        location.href = "../Mohit Codes/akash code/homePage.html";
+        location.href = "./Mohit Codes/akash code/homePage.html";
     }
     else{
         let invalidOTP = document.getElementById("invalidOTP");
