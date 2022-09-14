@@ -22,9 +22,7 @@
       "rating": 4.8,
       "price": 741,
       "seat_available": 87,
-      "booked_seats": [
-        46
-      ]
+      "booked_seats": []
     },
     {
       "id": 3,
@@ -257,9 +255,7 @@
       "rating": 3.9,
       "price": 112,
       "seat_available": 87,
-      "booked_seats": [
-        45
-      ]
+      "booked_seats": []
     },
     {
       "id": 24,
@@ -1240,7 +1236,9 @@
       "rating": 5,
       "price": 1165,
       "seat_available": 87,
-      "booked_seats": []
+      "booked_seats": [
+        36
+      ]
     },
     {
       "id": 113,
@@ -1865,37 +1863,6 @@
   ],
   "Tickets": [
     {
-      "name": "MYself",
-      "age": "22",
-      "email": "",
-      "phone": "",
-      "booked_bus": [
-        {
-          "id": 2,
-          "bus_name": "Volvo Multi-Axle Sleeper A/C",
-          "company": "Jakhar Travels",
-          "time_in": "0:15",
-          "time_out": "6:23",
-          "rating": 4.8,
-          "price": 741,
-          "seat_available": 87,
-          "booked_seats": [
-            46
-          ]
-        }
-      ],
-      "booked_seatID": 46,
-      "booked_price": 991,
-      "cur_Dt_time": "1 : 20  10 - 7 - 2022",
-      "user_points_input": {
-        "pickPoint": "PNP",
-        "dropPoint": "DL",
-        "date": "2022-08-11"
-      },
-      "ticketN0": 248,
-      "id": 1
-    },
-    {
       "name": "Dummy",
       "age": "44",
       "email": "",
@@ -1933,28 +1900,28 @@
       "phone": "9860809706",
       "booked_bus": [
         {
-          "id": 23,
-          "bus_name": "Volvo Multi-Axle I-Shift A/C Sleeper",
-          "company": "VRL Travels",
-          "time_in": "10:25",
-          "time_out": "14:33",
-          "rating": 3.9,
-          "price": 112,
+          "id": 112,
+          "bus_name": "Bharat Benz A/C Sleeper",
+          "company": "Jakhar Travels",
+          "time_in": "18:14",
+          "time_out": "6:28",
+          "rating": 5,
+          "price": 1165,
           "seat_available": 87,
           "booked_seats": [
-            45
+            36
           ]
         }
       ],
-      "booked_seatID": 45,
-      "booked_price": 362,
-      "cur_Dt_time": "15 : 17  19 - 7 - 2022",
+      "booked_seatID": 36,
+      "booked_price": 1165,
+      "cur_Dt_time": "14 : 8  5 - 8 - 2022",
       "user_points_input": {
-        "pickPoint": "Delhi",
-        "dropPoint": "Gurgaon",
-        "date": "2022-08-21"
+        "pickPoint": "pune",
+        "dropPoint": "delhi",
+        "date": "2022-09-07"
       },
-      "ticketN0": 268,
+      "ticketN0": 348,
       "id": 3
     }
   ]
