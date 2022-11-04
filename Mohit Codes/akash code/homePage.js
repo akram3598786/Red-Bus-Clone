@@ -29,7 +29,7 @@ document.querySelector("form").addEventListener("submit", () => {
 // manging
 document
   .getElementById("dropup-menu-booking")
-  .addEventListener("dblclick", function () {
+  .addEventListener("click", function () {
     document.querySelector(".dropdown-menu-booking").style.display = "flex";
     document.querySelector(".dropdown-menu-booking").style.backgroundColor =
       "white";
@@ -43,7 +43,7 @@ document
 // ------------double click on profile:- signUp open----------------------
 document
   .getElementById("dropup-menu")
-  .addEventListener("dblclick", function () {
+  .addEventListener("click", function () {
     document.querySelector(".dropdown-menu").style.display = "flex";
     document.querySelector(".dropdown-menu").style.backgroundColor = "white";
   });

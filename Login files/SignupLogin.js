@@ -8,24 +8,44 @@ document.querySelector("form").addEventListener("submit",()=>{
     alert("Please Login first");
 })
 
-// manging 
-document.getElementById("dropup-menu-booking").addEventListener("dblclick",function(){
-    document.querySelector(".dropdown-menu-booking").style.display = "flex";
-    document.querySelector(".dropdown-menu-booking").style.backgroundColor = 'white';
-});
-document.querySelector("#dropup-menu-booking").addEventListener("click",function(){
-    document.querySelector(".dropdown-menu-booking").style.display = "none";
-});
 
-// ------------double click on profile:- profile menu open----------------------
-document.getElementById("dropup-menu").addEventListener("dblclick",function(){
-    document.querySelector(".dropdown-menu").style.display = "flex";
-    // document.querySelector(".dropdown-menu").style.backgroundColor = 'white';
+let flg = false;
+// manging 
+
+document.getElementById("dropup-menu-booking").addEventListener("click",function(){
+    
+    if(!flg){
+        flg = true;
+        document.querySelector(".dropdown-menu-booking").style.display = "flex";
+        document.querySelector(".dropdown-menu-booking").style.backgroundColor = 'white';
+    }else{
+        document.querySelector(".dropdown-menu-booking").style.display = "none";
+        flg = false;
+    }
+    
+    
+});
+// document.querySelector("#dropup-menu-booking").addEventListener("click",function(){
+   // document.querySelector(".dropdown-menu-booking").style.display = "none";
+// });
+
+
+// ------------ click on profile:- profile menu open----------------------
+let flg2= false;
+document.getElementById("dropup-menu").addEventListener("click",function(){
+    if(!flg2){
+        document.querySelector(".dropdown-menu").style.display = "flex";
+     document.querySelector(".dropdown-menu").style.backgroundColor = 'white';
+     flg2 = true;
+    }else{
+        document.querySelector(".dropdown-menu").style.display = "none"; 
+        flg2 = false;
+    }
 });
 // // ------ click on profile:- profile menu close-------
-document.getElementById("dropup-menu").addEventListener("click",function(){
-    document.querySelector(".dropdown-menu").style.display = "none";
-});
+// document.getElementById("dropup-menu").addEventListener("click",function(){
+//     document.querySelector(".dropdown-menu").style.display = "none";
+// });
 
 // -------------Click On Sign:- Open 1st Popup--------------------------------
 document.querySelector(".dropdown-menu").addEventListener("click",function(){
