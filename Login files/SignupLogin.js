@@ -9,9 +9,9 @@ document.querySelector("form").addEventListener("submit",()=>{
 })
 
 
-let flg = false;
-// manging 
 
+// manging 
+let flg = false;
 document.getElementById("dropup-menu-booking").addEventListener("click",function(){
     
     if(!flg){
