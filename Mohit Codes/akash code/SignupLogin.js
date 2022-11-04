@@ -22,7 +22,7 @@ document.getElementById("dropup-menu").addEventListener("dblclick",function(){
     document.querySelector(".dropdown-menu").style.display = "flex";
     // document.querySelector(".dropdown-menu").style.backgroundColor = 'white';
 });
-// // ------ click on profile:- profile menu close-------
+ // ------ click on profile:- profile menu close-------
 document.getElementById("dropup-menu").addEventListener("click",function(){
     document.querySelector(".dropdown-menu").style.display = "none";
 });

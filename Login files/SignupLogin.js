@@ -23,7 +23,6 @@ document.getElementById("dropup-menu-booking").addEventListener("click",function
         flg = false;
     }
     
-    
 });
 // document.querySelector("#dropup-menu-booking").addEventListener("click",function(){
    // document.querySelector(".dropdown-menu-booking").style.display = "none";
