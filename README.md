@@ -17,6 +17,18 @@ Team Mates -
 3. Vishal Karale - https://github.com/vishalvsk
 4. Akash Jadhav  - https://github.com/Akashjadhav55
 
+## Built with
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>JSON Server</li>
+  <li>Local Storage</li>
+  <li>Heroku</li>
+  <li>Postman</li>
+  <li>Netlify</li>
+</ul>
 
 ## Home Page
 
