@@ -258,6 +258,14 @@ color: #3e3e52;
 }
 
 /*========== Bus details box ========== */
+#loadingHeading{
+  text-align: center;
+  background-color: #d84e55;
+  color: white;
+  margin-top: 15%;
+  padding: 10px 0px;
+  border-radius: 8px;
+}
 .bus_card {
     padding-right: 10px;
  border: 1px solid rgb(216, 208, 208);

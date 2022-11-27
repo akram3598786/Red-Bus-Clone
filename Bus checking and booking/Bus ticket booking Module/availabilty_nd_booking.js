@@ -38,9 +38,11 @@ document.getElementById("date").innerText=input_obj.date;
 
 
 //  display_buses function =================
+
+let bus_details_section = document.getElementById("bus_details_section");
+  bus_details_section.innerHTML = `<h1 id="loadingHeading">Loading Buses..</h1>`;
 function display_buses(data) {
   let no_of_buses = document.getElementById("no_of_buses");
-  let bus_details_section = document.getElementById("bus_details_section");
   bus_details_section.innerHTML = "";
   no_of_buses.innerHTML = `${data.length} `;
   data.forEach((bus) => {
@@ -48,7 +50,7 @@ function display_buses(data) {
     bus_card.setAttribute("class", "bus_card");
      let balance_avl_seats = bus.seat_available - bus.booked_seats.length;
      if(balance_avl_seats== 0) balance_avl_seats="All Seats Booked";
-    bus_card.innerHTML = `
+    bus_card.innerHTML = `  
     <div class="bus_info">
         <table>
             <tr id="tr1">

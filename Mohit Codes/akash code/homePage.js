@@ -34,6 +34,7 @@ document.getElementById("dropup-menu-booking").addEventListener("click",function
         flg = true;
         document.querySelector(".dropdown-menu-booking").style.display = "flex";
         document.querySelector(".dropdown-menu-booking").style.backgroundColor = 'white';
+        document.querySelector(".dropdown-menu-booking").style.position = "absolute";
     }else{
         document.querySelector(".dropdown-menu-booking").style.display = "none";
         flg = false;
@@ -51,6 +52,7 @@ document.getElementById("dropup-menu").addEventListener("click",function(){
     if(!flg2){
         document.querySelector(".dropdown-menu").style.display = "flex";
      document.querySelector(".dropdown-menu").style.backgroundColor = 'white';
+     document.querySelector(".dropdown-menu").style.position = "absolute";
      flg2 = true;
     }else{
         document.querySelector(".dropdown-menu").style.display = "none"; 

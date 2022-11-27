@@ -15,11 +15,23 @@
             flex-direction: column;
             overflow-x: hidden;
         }
-     input{
-    border: 1ps solid black;
-    border-radius: 5px;
+
+        input {
+            border: 1ps solid black;
+            border-radius: 5px;
         }
-    
+
+        @media screen and (max-width : 869px) {
+            .leftNav {
+                display: none;
+            }
+
+            #headerBlock {
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
     </style>
 </head>
 
@@ -231,9 +243,9 @@
                 Gender: Gender.value,
                 Email: Email.value,
             }
-            localStorage.setItem("userProfile",JSON.stringify(userObj));
-           
-        display();
+            localStorage.setItem("userProfile", JSON.stringify(userObj));
+
+            display();
         });
     })
 
@@ -242,9 +254,9 @@
 
     function display() {
 
-            document.querySelector(".right-panel").style.display = "block";
-           document.querySelector(".right-paneltwo").style.display = "none";
-         
+        document.querySelector(".right-panel").style.display = "block";
+        document.querySelector(".right-paneltwo").style.display = "none";
+
         let userDetail = JSON.parse(localStorage.getItem("userProfile")) || [];
         let FixedNumber = JSON.parse(localStorage.getItem("number")) || "";
 
@@ -267,28 +279,28 @@
         div6.setAttribute("class", "containerUser")
 
         var name = document.createElement("p");
-        name.innerText="";
+        name.innerText = "";
         if (userDetail.UserName == undefined) name.innerText = "User Name";
         else name.innerText = userDetail.UserName;
 
         var Name = document.createElement("p");
-        Name.innerText="";
+        Name.innerText = "";
         Name.innerText = userDetail.UserName;
 
         let dateofbirth = document.createElement("p")
-        dateofbirth.innerText="";
+        dateofbirth.innerText = "";
         dateofbirth.textContent = userDetail.DateofBirth;
 
         let gender = document.createElement("p")
-        gender.innerText="";
+        gender.innerText = "";
         gender.textContent = userDetail.Gender;
 
         var email = document.createElement("p");
-        email.innerText="";
+        email.innerText = "";
         email.innerText = userDetail.Email;
 
         var number = document.createElement("p");
-        number.innerText="";
+        number.innerText = "";
         number.innerText = FixedNumber;
 
 
@@ -299,12 +311,12 @@
         div5.append(number)
         div6.append(name)
         // div7.append(number)
-        document.getElementById("nameUserPrint").innerHTML="";
-        document.getElementById("datePrint").innerHTML="";
-        document.getElementById("genderPrint").innerHTML="";
-        document.getElementById("emailPrint").innerHTML="";
-        document.getElementById("numberPrint").innerHTML="";
-        document.getElementById("UserNameleftPanel").innerHTML="";
+        document.getElementById("nameUserPrint").innerHTML = "";
+        document.getElementById("datePrint").innerHTML = "";
+        document.getElementById("genderPrint").innerHTML = "";
+        document.getElementById("emailPrint").innerHTML = "";
+        document.getElementById("numberPrint").innerHTML = "";
+        document.getElementById("UserNameleftPanel").innerHTML = "";
 
 
         document.getElementById("nameUserPrint").append(div1);

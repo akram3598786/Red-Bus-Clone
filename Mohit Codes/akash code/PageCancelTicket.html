@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
             /* font-family: Montserrat; */
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
+
         /* #header{
             width: 100vw;
         } */
@@ -27,14 +29,18 @@
             align-items: center;
             width: 100%;
             flex-direction: column;
-            margin-top: 30px; 
-            margin-bottom: 20px;           
-        }
-        .cancelfromMain{
+            margin-top: 30px;
+            margin-bottom: 20px;
             /* background-color: gray; */
+        }
+
+        .cancelfromMain{
+            width: 100%;
             display: block;
             margin: auto;
-        }   
+
+        }
+
         .bold {
             font-weight: bold;
         }
@@ -45,38 +51,67 @@
 
         .row {
             display: flex;
-            justify-content:  space-between;
+            justify-content: space-between;
         }
 
         #ticket_container {
-   
+
             margin-bottom: 100px;
             display: flex;
             justify-content: center;
         }
+
         #ticketCard {
-                    padding: 9px 20px;
-                border: 1px solid rgb(219, 212, 212);
-                border-radius: 12px;
-                background-color: rgb(244, 250, 250);
-                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-                    width: 45%;
-                }
-        #ticketCard >*{
+            padding: 9px 20px;
+            border: 1px solid rgb(219, 212, 212);
+            border-radius: 12px;
+            background-color: rgb(244, 250, 250);
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            width: 45%;
+        }
+
+        #ticketCard>* {
             margin-top: -5px;
         }
 
-        #ticketCancel_btn{
+        #ticketCancel_btn {
             background-color: rgb(207, 0, 0);
             color: white;
             padding: 7px 5px;
-            border-radius: 6px;   
+            border-radius: 6px;
             cursor: pointer;
         }
-        #ticketCancel_btn:hover{
+
+        #ticketCancel_btn:hover {
             background-color: crimson;
         }
-        
+
+       
+        /* headerBlock */
+        @media screen and (max-width : 869px) {
+            .leftNav {
+                display: none;
+            }
+
+            #headerBlock {
+                justify-content: center;
+                align-items: center;
+            }
+
+            .cancelfromMain{
+                
+                background-color: yellow;
+            }
+ 
+            .cancel-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        }
+ 
     </style>
 </head>
 
@@ -87,22 +122,20 @@
             <h1>CANCEL TICKET</h1>
             <h3>Verify your deatails, and Cancel your ticket</h3>
             <div class="cancel-container">
-                <input id="cancel-input" class="ticket_no" type="text" value="" placeholder="Enter your ticket number">
+                <input id="cancel-input" class="ticket_no" type="text" value="" placeholder="Enter your ticket number"> 
                 <button id="cancel-button" class="search_btn">Search</button>
             </div>
         </div>
     </div>
 
     <div id="ticket_container">
-            <!-- Ticket will show here  -->
+        <!-- Ticket will show here  -->
     </div>
 
-        <!-- <d id="footer">  </d iv> -->
-            
-            <script type="module" src="./Pages.js"></script>
-            <script type="module" src="./PageCancelTicket.js"></script>
+    <!-- <d id="footer">  </d iv> -->
+
+    <script type="module" src="./Pages.js"></script>
+    <script type="module" src="./PageCancelTicket.js"></script>
 </body>
+
 </html>
-
-
-
