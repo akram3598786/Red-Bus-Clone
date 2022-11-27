@@ -19,9 +19,7 @@
             /* font-family: Montserrat; */
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-        /* #header{
-            width: 100vw;
-        } */
+
 
         #root {
             display: flex;
@@ -29,14 +27,16 @@
             align-items: center;
             width: 100%;
             flex-direction: column;
-            margin-top: 70px; 
-            margin-bottom: 20px;           
+            margin-top: 70px;
+            margin-bottom: 20px;
         }
-        .cancelfromMain{
+
+        .cancelfromMain {
             /* background-color: gray; */
             display: block;
             margin: auto;
-        }   
+        }
+
         .bold {
             font-weight: bold;
         }
@@ -47,25 +47,26 @@
 
         .row {
             display: flex;
-            justify-content:  space-between;
+            justify-content: space-between;
         }
 
         #ticket_container {
-   
+
             margin-bottom: 100px;
             display: flex;
             justify-content: center;
         }
 
-      #ticketCard {
+        #ticketCard {
             padding: 9px 20px;
-        border: 1px solid rgb(219, 212, 212);
-        border-radius: 12px;
-        background-color: rgb(244, 250, 250);
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            border: 1px solid rgb(219, 212, 212);
+            border-radius: 12px;
+            background-color: rgb(244, 250, 250);
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             width: 45%;
         }
-        #ticketCard >*{
+
+        #ticketCard>* {
             margin-top: -5px;
         }
 
@@ -74,16 +75,11 @@
             margin-top: 200px; */
             position: relative;
         }
+
         @media screen and (max-width : 869px) {
-            .leftNav {
-                display: none;
+            .cancel-container {
+                width: 100%;
             }
-
-            #headerBlock {
-                justify-content: center;
-                align-items: center;
-            }
-
         }
     </style>
 </head>
@@ -103,10 +99,10 @@
     </div>
 
     <div id="ticket_container">
-            <!-- Ticket will show here  -->
+        <!-- Ticket will show here  -->
     </div>
 
-        <!-- <d id="footer">  </d iv> -->
+    <!-- <d id="footer">  </d iv> -->
 </body>
 
 </html>

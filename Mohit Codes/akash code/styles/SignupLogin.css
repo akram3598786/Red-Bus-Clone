@@ -241,6 +241,17 @@ body {
     margin-left: -1200px;
   }
 }
+@media screen and (max-width : 869px) {
+  .leftNav {
+      display: none;
+  }
+
+  #headerBlock {
+      justify-content: center;
+      align-items: center;
+  }
+
+}
 
 
 /*----------------------------------- Sigup page ---------------------------------*/
