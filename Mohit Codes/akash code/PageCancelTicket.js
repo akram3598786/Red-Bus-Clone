@@ -7,8 +7,8 @@ document.querySelector(".search_btn").addEventListener("click", () => {
 
 async function get_ticket(ticket_no) {
   try {
-    // let url = `http://localhost:3000/Tickets?q=${ticket_no}`;
-    let url = `https://my-databases-json.herokuapp.com/Tickets?q=${ticket_no}`;
+    // let url = `https://my-databases-json.herokuapp.com/Tickets?q=${ticket_no}`;
+    let url = `https://json-server-02.onrender.com/Tickets?q=${ticket_no}`;
   
     let res = await fetch(url);
     let ticket = await res.json();

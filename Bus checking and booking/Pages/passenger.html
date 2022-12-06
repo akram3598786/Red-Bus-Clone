@@ -472,9 +472,9 @@
       ticketN0: ticketNo,
     };
     localStorage.setItem("booking_details",JSON.stringify(ticketDetails));
-    //    console.log(userDetails);
-    // let url = `http://localhost:3000/Tickets`;
-    let url = `https://my-databases-json.herokuapp.com/Tickets`;
+
+    // let url = `https://my-databases-json.herokuapp.com/Tickets`;
+    let url = `https://json-server-02.onrender.com/Tickets`;
     let res = await fetch(url, {
       method: "POST",
       body: JSON.stringify(ticketDetails),
