@@ -81,7 +81,8 @@ let input_obj = JSON.parse(localStorage.getItem("user_inputs"));
 
 async function patch_ele(updObj, selected_busID) {
   try {
-    let res = await fetch(`https://my-databases-json.herokuapp.com/redbus/${selected_busID}`, {
+    // let res = await fetch(`https://my-databases-json.herokuapp.com/redbus/${selected_busID}`, {
+    let res = await fetch(`https://json-server-02.onrender.com/redbus/${selected_busID}`, {
       method: "PATCH",
       body: JSON.stringify(updObj),
       headers: {

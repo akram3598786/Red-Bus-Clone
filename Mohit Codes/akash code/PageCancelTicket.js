@@ -77,8 +77,8 @@ function sidplayTicket(ticket) {
 
 
     async function deleteTicket(ticketID) {
-      // let url = `http://localhost:3000/Tickets/${ticketID}`;
-      let url = `https://my-databases-json.herokuapp.com/Tickets/${ticketID}`;
+      // let url = `https://my-databases-json.herokuapp.com/Tickets/${ticketID}`;
+      let url = `https://json-server-02.onrender.com/Tickets/${ticketID}`;
       let res = await fetch(url, {
         method: "DELETE",
         // body: JSON.stringify(ticketDetails),
@@ -113,8 +113,8 @@ function sidplayTicket(ticket) {
 
 async function getBus(bus_id) {
   try {
-    // let url = `http://localhost:3000/redbus/${bus_id}`;
-    let url = `https://my-databases-json.herokuapp.com/redbus/${bus_id}`;
+    // let url = `https://my-databases-json.herokuapp.com/redbus/${bus_id}`;
+    let url = `https://json-server-02.onrender.com/redbus/${bus_id}`;
     const res = await fetch(url);
     const data = await res.json();
     // console.log(data)
@@ -126,8 +126,8 @@ async function getBus(bus_id) {
 
 async function patch_busSeat(updObj, selected_busID) {
   try {
-    // let res = await fetch(`http://localhost:3000/redbus/${selected_busID}`, {
-    let res = await fetch(`https://my-databases-json.herokuapp.com/redbus/${selected_busID}`, {
+    // let res = await fetch(`https://my-databases-json.herokuapp.com/redbus/${selected_busID}`, {
+    let res = await fetch(`https://json-server-02.onrender.com/redbus/${selected_busID}`, {
       method: "PATCH",
       body: JSON.stringify(updObj),
       headers: {

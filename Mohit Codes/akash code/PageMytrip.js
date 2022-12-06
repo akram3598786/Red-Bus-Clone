@@ -2,8 +2,8 @@
 
 async function gettrips(){
     try{
-        // let url = `http://localhost:3000/Tickets`;
-        let url = `https://my-databases-json.herokuapp.com/Tickets`;
+        // let url = `https://my-databases-json.herokuapp.com/Tickets`;
+        let url = `https://json-server-02.onrender.com/Tickets`;
         let res = await fetch(url);
         let trips = await res.json();
           console.log(trips);
